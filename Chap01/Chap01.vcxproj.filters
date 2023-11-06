@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\7~18">
+      <UniqueIdentifier>{79330831-bcba-4a36-ae7e-7daa45602b4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7~18\1.1.18 std::optional">
+      <UniqueIdentifier>{0903447b-6252-4054-9a4b-692d7ca2c5de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7~18\1.1.7 Struct">
+      <UniqueIdentifier>{f94cd930-f0c7-4e95-bec4-82030e1b61ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7~18\1.1.15 std::array">
+      <UniqueIdentifier>{df43a4cc-0ef4-4f8c-897b-d2fc621c30dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\7~18\1.1.17 std::pair">
+      <UniqueIdentifier>{c85070d2-77ff-4d49-bfdf-bfa46f728e9a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="employee.cppm">
+      <Filter>소스 파일\7~18\1.1.7 Struct</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.7~1.1.18.cpp">
+      <Filter>소스 파일\7~18</Filter>
+    </ClCompile>
+    <ClCompile Include="1.1.19_structedBinding.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
